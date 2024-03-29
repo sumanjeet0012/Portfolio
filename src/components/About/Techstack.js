@@ -10,26 +10,31 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
+import { FaJava, FaPython, FaPhp, FaLinux, FaDocker, FaJenkins, FaAws,  } from "react-icons/fa";
 import {
   SiRedis,
-  SiFirebase,
+  SiTypescript ,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiAppwrite,
+  SiRedux ,
+  SiKubernetes,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {  } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <FaPython  />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPhp  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,10 +43,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiRedux  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
@@ -50,19 +58,25 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiAppwrite />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <FaLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <FaDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <FaJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
       </Col>
     </Row>
   );
